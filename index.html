@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Репетитор английского языка</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box}
+body{margin:0;font-family:'Poppins',sans-serif;background:linear-gradient(135deg,#ff7a18,#32d2aa);color:#222}
+header{padding:80px 20px;text-align:center;color:white}
+header h1{font-size:52px;margin-bottom:10px}
+header p{font-size:22px}
+.cta{margin-top:30px}
+.cta a{background:white;color:#ff7a18;padding:16px 30px;border-radius:40px;text-decoration:none;font-weight:600;box-shadow:0 10px 25px rgba(0,0,0,0.2);transition:0.3s}
+.cta a:hover{transform:translateY(-3px)}
+
+section{padding:70px 20px;max-width:1100px;margin:auto}
+
+h2{text-align:center;margin-bottom:40px;font-size:32px}
+
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:25px}
+.card{background:white;border-radius:18px;padding:25px;box-shadow:0 10px 25px rgba(0,0,0,0.1);transition:0.3s}
+.card:hover{transform:translateY(-6px)}
+
+.about{display:grid;grid-template-columns:300px 1fr;gap:40px;align-items:center}
+.about img{width:100%;border-radius:20px;box-shadow:0 10px 25px rgba(0,0,0,0.2)}
+
+.pricing{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:25px}
+.price-card{background:white;border-radius:18px;padding:30px;text-align:center;box-shadow:0 10px 25px rgba(0,0,0,0.12)}
+.price{font-size:32px;font-weight:600;margin:10px 0}
+
+.reviews{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:25px}
+.review{background:white;padding:20px;border-radius:16px;box-shadow:0 10px 20px rgba(0,0,0,0.1)}
+
+.contact{background:white;border-radius:20px;padding:40px;box-shadow:0 10px 25px rgba(0,0,0,0.15);max-width:700px;margin:auto}
+.contact input,.contact textarea{width:100%;padding:12px;margin:10px 0;border-radius:10px;border:1px solid #ddd;font-family:Poppins}
+.contact button{background:#ff7a18;color:white;border:none;padding:14px 20px;border-radius:30px;font-weight:600;cursor:pointer}
+
+.lang{position:absolute;top:20px;right:20px}
+.lang button{margin-left:6px;padding:6px 10px;border:none;border-radius:6px;cursor:pointer}
+
+footer{text-align:center;padding:35px;background:#111;color:white;margin-top:50px}
+
+@media(max-width:800px){
+.about{grid-template-columns:1fr;text-align:center}
+}
+</style>
+</head>
+<body>
+
+<div class="lang">
+<button>RU</button>
+<button>EN</button>
+
+</div>
+
+<header>
+<h1>Английский легко 🚀</h1>
+<p>Интерактивные онлайн‑уроки для школьников и начинающих</p>
+<div class="cta">
+<a href="#contact">Записаться на урок</a>
+</div>
+</header>
+
+<section>
+<h2>Почему ученики выбирают мои уроки</h2>
+<div class="cards">
+<div class="card">
+<h3>🎮 Игровой формат</h3>
+<p>Использую интерактивные платформы и задания, чтобы ученикам было интересно.</p>
+</div>
+<div class="card">
+<h3>🧠 Понятная грамматика</h3>
+<p>Сложные правила объясняю простым языком.</p>
+</div>
+<div class="card">
+<h3>🗣 Разговорная практика</h3>
+<p>Начинаем говорить на английском уже с первого урока.</p>
+</div>
+<div class="card">
+<h3>📈 Быстрый прогресс</h3>
+<p>Индивидуальная программа обучения под каждого ученика.</p>
+</div>
+</div>
+</section>
+
+<section>
+<h2>Обо мне</h2>
+<div class="about">
+<img src="sveta.png" alt="Фото преподавателя">
+<div>
+<p>Привет! Меня зовут <b>Светлана</b>. Я репетитор английского языка и помогаю школьникам и начинающим начать говорить на английском уверенно.</p>
+<p>Опыт преподавания свыше 20 лет, интерактивные задания и дружелюбная атмосфера помогают ученикам быстро преодолеть языковой барьер.</p>
+</div>
+</div>
+</section>
+
+<section>
+<h2>Стоимость занятий</h2>
+<div class="pricing">
+<div class="price-card">
+<h3>Пробный урок</h3>
+<div class="price">Бесплатно</div>
+<p>20 минут знакомства и определение уровня</p>
+</div>
+
+<div class="price-card">
+<h3>Индивидуальный урок</h3>
+<div class="price">1500р</div>
+<p>60 минут онлайн занятия</p>
+</div>
+
+<div class="price-card">
+<h3>Пакет 8 уроков</h3>
+<div class="price">10000р</div>
+<p>Экономия и стабильный прогресс</p>
+</div>
+</div>
+</section>
+
+<section>
+<h2>Отзывы учеников</h2>
+<div class="reviews">
+<div class="review">⭐️⭐️⭐️⭐️⭐️<p>"Очень интересные уроки! Начала говорить уже через месяц."</p></div>
+<div class="review">⭐️⭐️⭐️⭐️⭐️<p>"Ребенок занимается с удовольствием."</p></div>
+<div class="review">⭐️⭐️⭐️⭐️⭐️<p>"Лучший преподаватель английского, которого я встречал."</p></div>
+</div>
+</section>
+
+<section id="contact">
+<h2>Записаться на урок</h2>
+<div class="contact">
+<input placeholder="Ваше имя">
+<input placeholder="Email">
+<textarea rows="4" placeholder="Сообщение"></textarea>
+<button>Отправить</button>
+<p style="margin-top:20px">VK: @yourname</p>
+</div>
+</section>
+
+<footer>
+<p>© 2026 Репетитор английского языка</p>
+</footer>
+
+</body>
+</html>
